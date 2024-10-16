@@ -1,0 +1,107 @@
+/* Estilos básicos para a página de edição */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+h2 {
+    position: absolute;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    top: 20%;
+}
+
+form {
+    background-color: white;
+    padding: 15px; /* Diminui o preenchimento do formulário */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Diminui a largura máxima do formulário */
+    margin: 0 auto;
+    background-color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Adicionar espaço ao redor do formulário */
+.container {
+    padding: 20px;
+}
+
+/* Estilizar uma mensagem de sucesso ou erro */
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Media Queries para telas pequenas */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; /* Ajusta o tamanho do título para telas menores */
+        top: 10%; /* Ajusta a posição do título para telas menores */
+    }
+
+    form {
+        padding: 10px; /* Reduz o preenchimento do formulário */
+        width: 380px;
+    }
+
+    input[type="text"], textarea {
+        font-size: 14px; /* Reduz o tamanho da fonte dos inputs e textarea */
+    }
+
+    input[type="submit"] {
+        font-size: 14px; /* Reduz o tamanho da fonte do botão de submit */
+    }
+
+    .message {
+        font-size: 14px; /* Reduz o tamanho da fonte da mensagem */
+    }
+}

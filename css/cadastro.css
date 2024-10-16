@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; /* Para organizar verticalmente */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: calc(100vh - 80px); /* Subtrai a altura da nav */
+    margin-top: 80px; /* Adiciona margem superior para não ficar atrás da nav */
+}
+
+.nav {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 110px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: #1A00FF;
+    padding: 30px 0; 
+}
+
+.form {
+    width: 90%;
+    max-width: 440px; 
+    height: auto; 
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 30px;
+    padding: 20px; 
+    margin: 20px 0;
+}
+
+.form input {
+    width: 100%; 
+    height: 50px;
+    margin-top: 20px; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 20px; 
+}
+
+.butao {
+    border-radius: 10px;
+    background-color: #1A00FF;
+    font-weight: bold;
+    color: white;
+    font-size: 30px; 
+    width: 100%; 
+    height: 50px; 
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+    .nav {
+        font-size: 40px; 
+    }
+
+    .form {
+        font-size: 25px;
+    }
+
+    .butao {
+        font-size: 20px; 
+    }
+}

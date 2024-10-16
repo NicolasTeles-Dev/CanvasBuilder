@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Proposta de Valor",
+        "descricao": "Fornecer uma plataforma\r\ndigital com uma ampla\r\nsele\u00e7\u00e3o de jogos, permitindo\r\ncompras r\u00e1pidas e seguras.",
+        "imagem": "uploads\/image 1.png"
+    },
+    {
+        "nome": "Segmentos de Clientes",
+        "descricao": "Gamers de diferentes faixas et\u00e1rias (jovens e adultos).\r\nJogadores casuais e hardcore.\r\nEmpresas de streaming de jogos ou eventos de eSports.",
+        "imagem": "uploads\/image 2.png"
+    },
+    {
+        "nome": "Parcerias Principais ",
+        "descricao": "Desenvolvedores de jogos e grandes est\u00fadios.\r\n",
+        "imagem": "uploads\/image 8.png"
+    }
+]
